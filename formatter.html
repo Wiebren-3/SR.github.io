@@ -155,14 +155,5 @@
     document.getElementById('reset-button').addEventListener('click', resetMarkers);
     document.getElementById('export-button').addEventListener('click', exportCoords);
   </script>
-  <script>
-    // Check if the user is authenticated or logged in
-    var isLoggedIn = false; // Replace with your actual authentication logic
-  
-    // Redirect to the login page if not logged in
-    if (!isLoggedIn && window.location.pathname !== '/index.html') {
-      window.location.href = 'index.html';
-    }
-  </script>
 </body>
 </html>
